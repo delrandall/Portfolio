@@ -7,8 +7,35 @@
 		<!--<meta name="viewport" content="width=device-width" />-->
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
 	</head>
-	<body>
+	<style>
 	
+div.background {
+  border: 0px solid black;
+}
+
+div.article {
+	float: left;
+	margin: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.article h5 {
+	background-color: teal;
+	color: white;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 4px;
+	opacity: 0.75;
+}
+</style>
+	<body>
 		<div class="row">
 			<div class="col-md-1"></div>		
 			<div class="col-md-3" style="background-color:teal;"><h1><strong>Del Randall</strong></h1></div>
@@ -32,20 +59,24 @@
 			</div>
 			<hr>
 			<p></p>
-			<div class="row">
+			<div class="row";>
 				<div class="col-md-1"></div>
 				<div class="col-md-2">
-					<article>
+					<div class="background">
+						<div class="article">
 						<img src="images/ipadperson.jpg" class="social" alt="Hangman" height="200" width="200">
-						<h5>Hangman</h5>
-					</article>
+						<h5>Hangman</h5>	
+						</div>
+					</div>
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-2">
-					<article>
+					<div class="background">
+						<div class="article">
 						<img src="images/rodrigo.jpg" class="social" alt="LinkedIn" height="200" width="200">
 						<h5>RPG Game</h5>
-					</article>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-5  text-center"><h2><strong>Connect with Me</strong></h2>
@@ -59,32 +90,36 @@
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-2">
-					<article>
+					<div class="background">
+						<div class="article">
 						<img src="images/earplugs.jpg" class="social" alt="Trivia Game" height="200" width="200">
 						<h5>Trivia Game</h5>
-					</article>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-2 text-center">
-				<article>
-					<img src="images/phoneplugs.jpg" class="social" alt="Rutgers Info Widget" height="200" width="200">
-					<h5>Rutgers Info Widget</h5>
-				</article>
+					<div class="background">
+						<div class="article">
+						<img src="images/phoneplugs.jpg" class="social" alt="Rutgers Info Widget" height="200" width="200">
+						<h5>Rutgers Info Widget</h5>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-5"></div>
 			</div>
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-2">
-				<article>
+				<div class="background">
+					<div class="article">
 					<img src="images/rockpaperscissors.jpg" class="social" alt="Rock Paper Scissors" height="200" width="200">
 					<h5>Rock Paper Scissors</h5>
-				</article>
+					</div>
+				</div>
 			</div>
-		</div>
-				
-			
-			<div class="clear"></div>
+		</div>	
+		<div class="clear"></div>
 			<div class="row">
 				<div class="col-md-12" style="background-color:teal;"></div>	
 				
